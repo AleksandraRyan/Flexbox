@@ -87,10 +87,35 @@ header .container img {
   /* background-color: purple; */
 }
 
+/* Boxes */
+.boxes .container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 20px;
+}
+
+.box {
+  border: 2px solid green;
+  padding: 20px;
+  text-align: center;
+  width: 400px;
+}
+
+.box:nth-of-type(2) {
+  flex-grow: 2;
+}
+
 /* Media Queries aka Responsiveness */
 @media (max-width: 850px) {
   img {
     max-width: 80%;
+  }
+
+  .box:nth-of-type(2) {
+    flex-grow: 0;
   }
 }
 @media (max-width: 700px) {
