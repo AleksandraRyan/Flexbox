@@ -21,6 +21,7 @@ nav .container .logo {
   font-style: italic;
   font-weight: 600;
   margin-left: 15px;
+  margin-top: -10px;
 }
 
 .navbar .nav {
@@ -28,10 +29,15 @@ nav .container .logo {
   list-style-type: none;
 }
 
-.nav li a {
+.nav li a,
+.logo {
   text-decoration: none;
   margin-right: 10px;
   color: black;
+  color: rgb(255, 255, 255);
+  border-radius: 4px;
+  padding: 7px 11px;
+  background-color: rgb(245, 79, 18);
 }
 
 header {
