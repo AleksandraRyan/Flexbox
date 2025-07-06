@@ -10,6 +10,14 @@ img {
   border-radius: 40px;
 }
 
+nav {
+  position: sticky;
+  top: 0;
+  right: 0;
+  background-color: rgb(246, 156, 21);
+  padding: 10px 0;
+}
+
 nav .container {
   display: flex;
   justify-content: space-between;
@@ -21,7 +29,7 @@ nav .container .logo {
   font-style: italic;
   font-weight: 600;
   margin-left: 15px;
-  margin-top: -10px;
+  margin-top: -15px;
 }
 
 .navbar .nav {
